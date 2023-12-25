@@ -1,0 +1,33 @@
+﻿@model Siparis
+<div class="row">
+    <div clasclass="col-md-4">
+
+        <form asp-action="siparisOlustur">
+            <div class="form-group">
+            <label asp-for="id" class="form-control"></label>
+            <input asp-for="id" class="form-control" />
+            </div>
+            <div class="form-group">
+            <label asp-for="name" class="form-control"></label>
+            <input asp-for="name" class="form-control" />
+    </div>
+            <div class="form-group">
+            <label asp-for="email" class="form-control"></label>
+            <input asp-for="email" class="form-control" />
+</div>
+<div class="form-group">
+            <label asp-for="toplamTutar" class="form-control"></label>
+            <input asp-for="toplamTutar" class="form-control" />
+            </div>
+            <div class="form-group">
+            <label asp-for="tel" class="form-control"></label>
+            <input asp-for="tel" class="form-control" />
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="odemeye devam" class"btn btn-primary" />
+            </div>
+        </form>
+    </div>
+    
+</div>
